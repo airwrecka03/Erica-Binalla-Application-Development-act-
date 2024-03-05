@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(243, 238, 239);
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(212, 158, 103);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    border-style: ridge;
+    border-color: white;
+}
+
+.card{
+    background-color: rgb(245, 221, 197);
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5%;
+    border-style: ridge;
+    border-color: rgba(247, 198, 198, 0.767);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+}
